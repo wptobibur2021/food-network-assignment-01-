@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.float-left{
+float: left;
+}
+.float-right{
+    float: right;
+}
+
+.section-padding{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+
+}
+/*  Hero Section CSS */
+.hero-section {
+    background-image: url(../assert/img/shapes/Frame57.jpg);
+    background-size: cover;
+    display: flex;
+}
+.heroimg img {
+    margin-bottom: -4px;
+}
+.herotitle h1 {
+    font-size: 62px;
+    color: #575757;
+}
+
+.herotitle h1 span {
+    color: #8c9f24;
+}
+.hero-button{
+    background-color: #FD4F30;
+    padding: 10px 20px 10px 20px;
+    border: navajowhite;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 40px;
+    color: #fff;
+    box-shadow: -19px -2px 229px -22px rgba(253,79,48,0.49);
+    -webkit-box-shadow: -19px -2px 229px -22px rgba(253,79,48,0.49);
+    -moz-box-shadow: -19px -2px 229px -22px rgba(253,79,48,0.49);
+    text-decoration: none;
+}
+
+
+
+section.about-section {
+    background-image: url(../assert/img/shapes/Frame58.jpg);
+    background-size: cover;
+    display: flex;
+}
+.about-images img {
+    margin-bottom: -4px;
+}
+.about-button{
+    background-color: #FD4F30;
+    padding: 10px 20px 10px 20px;
+    border: navajowhite;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 40px;
+    color: #fff;
+    box-shadow: -19px -2px 229px -22px rgba(253,79,48,0.49);
+    -webkit-box-shadow: -19px -2px 229px -22px rgba(253,79,48,0.49);
+    -moz-box-shadow: -19px -2px 229px -22px rgba(253,79,48,0.49);
+    text-decoration: none;
+}
+
+
+.recipies-section{
+    background-image: url(../assert/img/shapes/Frame59.jpg);
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.section-heading h1 {
+    margin-bottom: 20px;
+}
+
+.our-recipies {
+    display: flex;
+}
+
+.single-recipies {
+    background-color: #fff;
+    border-radius: 20px;
+    margin-right: 35px;
+    padding: 20px;
+}
+
+img.recipies-img {
+    max-width: 325px;
+    margin-bottom: 20px;
+}
+.single-recipies:last-child {
+    margin-right: 0px;
+}
+
+.single-recipies p {
+    margin-bottom: 15px;
+}
+/* Counter CSS Start */
+
+.counter-client {
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
+.single-counter {
+    width: 33.3%;
+}
+
+.single-counter h1 {
+    margin-bottom: 10px;
+}
+
+.single-counter p {
+    margin-bottom: 10px;
+}
